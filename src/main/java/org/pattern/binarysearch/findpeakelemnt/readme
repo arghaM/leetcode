@@ -1,0 +1,7 @@
+this algo works as the question already saying there would always be a pick element. and as there
+is a peak element present , there would be an increasing sub sequence- that property binary search is
+exploting to find the answer.
+
+-There's guaranteed existence of a peak.
+-Which guarantees slope transitions (↑ then ↓).
+-Which makes it possible to use binary search by checking the direction of the slope.
