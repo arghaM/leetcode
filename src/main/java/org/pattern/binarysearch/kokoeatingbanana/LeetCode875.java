@@ -12,9 +12,9 @@ public class LeetCode875 {
            int m = start + ((max-start)/2);
            int localTime = 0;
            for(int p : piles){
-              // double t = (double) p/m;
-              // localTime += Math.ceil(t);
-               localTime += (p + m - 1) / m;
+               double t = (double) p/m;
+               localTime += Math.ceil(t);
+               //localTime += (p + m - 1) / m;
 
            }
            if(localTime <= h){
